@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>Quellen-Vorschlaege &mdash; Sozialberatung Muensterland</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root {
+    --bg: #0f0f1a;
+    --card: #1a1a2e;
+    --text: #e8e8ef;
+    --text-dim: #9898a8;
+    --accent: #7cb8ff;
+    --green: #7edf8b;
+    --red: #ff7c7c;
+    --yellow: #ffcc66;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 0; background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 14px; line-height: 1.5;
+  }
+  .container { max-width: 1100px; margin: 0 auto; padding: 20px; }
+  h1 { margin: 0 0 4px 0; font-size: 22px; }
+  h2 { margin: 24px 0 10px 0; font-size: 16px; color: var(--accent); }
+  .build-info { color: var(--text-dim); font-size: 12px; margin-bottom: 18px; }
+  .back-link { display: inline-block; margin-bottom: 14px; color: var(--accent); text-decoration: none; }
+  .back-link:hover { text-decoration: underline; }
+  .current { background: var(--card); border-radius: 8px; padding: 16px 18px; margin-bottom: 16px; }
+  .empty { color: var(--text-dim); font-style: italic; }
+  .err { color: var(--red); font-size: 13px; }
+  .meta { color: var(--text-dim); font-size: 12px; margin-bottom: 10px; }
+  .cards { display: grid; gap: 10px; }
+  .candidate-card {
+    background: rgba(255,255,255,0.03); border-left: 3px solid var(--accent);
+    padding: 10px 12px; border-radius: 4px;
+  }
+  .card-head { display: flex; flex-wrap: wrap; gap: 8px; align-items: baseline; margin-bottom: 4px; }
+  .firma { font-weight: 600; font-size: 15px; color: var(--text); }
+  .url a { color: var(--accent); text-decoration: none; word-break: break-all; }
+  .url a:hover { text-decoration: underline; }
+  .parser-badge {
+    padding: 1px 7px; border-radius: 10px; font-size: 11px; font-weight: 500;
+  }
+  .parser-bekannt { background: rgba(126,223,139,0.15); color: var(--green); }
+  .parser-unknown, .parser-drift { background: rgba(255,124,124,0.15); color: var(--red); }
+  .strategy-badge {
+    padding: 1px 7px; border-radius: 10px; font-size: 11px; background: rgba(255,255,255,0.08); color: var(--text-dim);
+  }
+  .confidence { color: var(--text-dim); font-size: 12px; }
+  .evidence { color: var(--text-dim); font-size: 11px; margin-top: 6px; }
+  .evidence code { background: rgba(255,255,255,0.05); padding: 1px 4px; border-radius: 3px; font-size: 11px; }
+  .history { margin-top: 32px; }
+  .history-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+  .history-table th, .history-table td {
+    border-bottom: 1px solid rgba(255,255,255,0.07); padding: 6px 8px; text-align: left;
+  }
+  .history-table th { color: var(--text-dim); font-weight: 500; }
+</style>
+</head>
+<body>
+<div class="container">
+<a href="index.html" class="back-link">&larr; zurueck zur Trefferliste</a>
+<h1>Quellen-Vorschlaege &mdash; Sozialberatung Muensterland</h1>
+<div class="build-info">Gebaut: 2026-04-26 11:15</div>
+<section class="current"><h2>Aktueller Stand &mdash; 2026-04-26 10:16</h2><p class="err">Hinweis: stage_b: cli_missing: [WinError 2] Das System kann die angegebene Datei nicht finden</p><p class="meta">13 Kandidaten (1 neu).</p><div class="cards"><div class="candidate-card"><div class="card-head"><span class="firma">Theodor Fliedner Stiftung</span><span class="parser-badge parser-unknown">Parser: unbekannt</span><span class="strategy-badge">heuristic</span><span class="confidence">0.85</span></div><div class="url"><a href="https://theodor-fliedner-stiftung.de/karriere" target="_blank" rel="noopener">https://theodor-fliedner-stiftung.de/karriere</a></div><div class="evidence">Belege: <code>34905e2bd3e2, 5ccd55b2901e, 251b581e53a6</code></div></div>
+<div class="candidate-card"><div class="card-head"><span class="firma">kreuznacher diakonie</span><span class="parser-badge parser-unknown">Parser: unbekannt</span><span class="strategy-badge">heuristic</span><span class="confidence">0.85</span></div><div class="url"><a href="https://kreuznacherdiakonie.de/karriere" target="_blank" rel="noopener">https://kreuznacherdiakonie.de/karriere</a></div><div class="evidence">Belege: <code>77fb24a8dd48, 1655d5cd7772, 425d3cf754bf</code></div></div>
+<div class="candidate-card"><div class="card-head"><span class="firma">Kaiserswerther Diakonie</span><span class="parser-badge parser-unknown">Parser: unbekannt</span><span class="strategy-badge">applicant_url</span><span class="confidence">0.85</span></div><div class="url"><a href="https://gute-jobs.de/viewjob-yxs9c?utm_source=jsba-premium&amp;utm_medium=n-a&amp;utm_campaign=jsba-premium&amp;utm_term=berater-betriebliches-eingliederungsmanagement-bem-m-w-d" target="_blank" rel="noopener">https://gute-jobs.de/viewjob-yxs9c?utm_source=jsba-premium&amp;utm_medium=n-a&amp;utm_campaign=jsba-premium&amp;utm_term=berater-betriebliches-eingliederungsmanagement-bem-m-w-d</a></div><div class="evidence">Belege: <code>63f1088b64cf, eea522fa3cbc, 08b82126a566</code></div></div>
+<div class="candidate-card"><div class="card-head"><span class="firma">Diakonie Gütersloh e.V.</span><span class="parser-badge parser-unknown">Parser: unbekannt</span><span class="strategy-badge">heuristic</span><span class="confidence">0.85</span></div><div class="url"><a href="https://diakonie-guetersloh.de/jobs" target="_blank" rel="noopener">https://diakonie-guetersloh.de/jobs</a></div><div class="evidence">Belege: <code>5b755d8e9749, 26bdae005a76, 61a7fbdc01e8</code></div></div>
+<div class="candidate-card"><div class="card-head"><span class="firma">Bistum Muenster</span><span class="parser-badge parser-unknown">Parser: unbekannt</span><span class="strategy-badge">heuristic</span><span class="confidence">0.85</span></div><div class="url"><a href="https://bistum-muenster.de/karriere" target="_blank" rel="noopener">https://bistum-muenster.de/karriere</a></div><div class="evidence">Belege: <code>63d66dbedb84, 5e27a16bf860, 62d3deef75ec</code></div></div>
+<div class="candidate-card"><div class="card-head"><span class="firma">Universitätsklinikum Essen</span><span class="parser-badge parser-unknown">Parser: unbekannt</span><span class="strategy-badge">heuristic</span><span class="confidence">0.85</span></div><div class="url"><a href="https://universitaetsklinikum-essen.de/karriere" target="_blank" rel="noopener">https://universitaetsklinikum-essen.de/karriere</a></div><div class="evidence">Belege: <code>7a30a8cad6bf, 2ddfa9389ba7, cf76556ab416</code></div></div>
+<div class="candidate-card"><div class="card-head"><span class="firma">Diakonie Düsseldorf</span><span class="parser-badge parser-unknown">Parser: unbekannt</span><span class="strategy-badge">heuristic</span><span class="confidence">0.85</span></div><div class="url"><a href="https://diakonie-duesseldorf.de/karriere" target="_blank" rel="noopener">https://diakonie-duesseldorf.de/karriere</a></div><div class="evidence">Belege: <code>9dafdaac6d88, 6d95a2ff0387, ffabf4d906f3</code></div></div>
+<div class="candidate-card"><div class="card-head"><span class="firma">Universitätsklinikum Münster</span><span class="parser-badge parser-unknown">Parser: unbekannt</span><span class="strategy-badge">heuristic</span><span class="confidence">0.85</span></div><div class="url"><a href="https://universitaetsklinikum-muenster.de/karriere" target="_blank" rel="noopener">https://universitaetsklinikum-muenster.de/karriere</a></div><div class="evidence">Belege: <code>83c7d3728967, 072165046899, b327783e9b70</code></div></div>
+<div class="candidate-card"><div class="card-head"><span class="firma">Diakonie Ruhr-Hellweg e.V.</span><span class="parser-badge parser-unknown">Parser: unbekannt</span><span class="strategy-badge">heuristic</span><span class="confidence">0.85</span></div><div class="url"><a href="https://diakonie-ruhr-hellweg.de/karriere" target="_blank" rel="noopener">https://diakonie-ruhr-hellweg.de/karriere</a></div><div class="evidence">Belege: <code>61c97866d485, 50b295f957b7, c11522ee70ee</code></div></div>
+<div class="candidate-card"><div class="card-head"><span class="firma">Grafschafter Diakonie</span><span class="parser-badge parser-unknown">Parser: unbekannt</span><span class="strategy-badge">heuristic</span><span class="confidence">0.85</span></div><div class="url"><a href="https://grafschafter-diakonie.de/karriere" target="_blank" rel="noopener">https://grafschafter-diakonie.de/karriere</a></div><div class="evidence">Belege: <code>d459d77bdd6f, 90f47a3c7b04, deb03a40b6c3</code></div></div>
+<div class="candidate-card"><div class="card-head"><span class="firma">ASB NRW</span><span class="parser-badge parser-unknown">Parser: unbekannt</span><span class="strategy-badge">heuristic</span><span class="confidence">0.85</span></div><div class="url"><a href="https://asb-nrw.de/karriere" target="_blank" rel="noopener">https://asb-nrw.de/karriere</a></div><div class="evidence">Belege: <code>89678a8eb71b, 737bc163a43d, f5cc31392227</code></div></div>
+<div class="candidate-card"><div class="card-head"><span class="firma">Graf Recke Stiftung</span><span class="parser-badge parser-unknown">Parser: unbekannt</span><span class="strategy-badge">heuristic</span><span class="confidence">0.85</span></div><div class="url"><a href="https://graf-recke-stiftung.de/karriere" target="_blank" rel="noopener">https://graf-recke-stiftung.de/karriere</a></div><div class="evidence">Belege: <code>9a33b2edce00, be6c6cc0365b, 08ba69a46336</code></div></div>
+<div class="candidate-card"><div class="card-head"><span class="firma">Diakoniewerk Essen</span><span class="parser-badge parser-unknown">Parser: unbekannt</span><span class="strategy-badge">heuristic</span><span class="confidence">0.85</span></div><div class="url"><a href="https://diakoniewerk-essen.de/karriere" target="_blank" rel="noopener">https://diakoniewerk-essen.de/karriere</a></div><div class="evidence">Belege: <code>00d68b3ae88f, 07d6baa3a2ba, 6dd9fd6de733</code></div></div></div></section>
+<section class="history"><h2>Chronik (letzte 10 Laeufe)</h2><table class="history-table"><thead><tr><th>Zeit</th><th>Info</th></tr></thead><tbody><tr><td>2026-04-23 08:27</td><td>12 Kandidaten (12 neu) &mdash; stage_b: cli_missing: [WinError 2] Das System kann die angegebene Datei nicht finden</td></tr></tbody></table></section>
+</div>
+</body>
+</html>
